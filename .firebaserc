@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "my-web-app-587b0"
+  },
+  "targets": {
+    "rid1-test": {
+      "hosting": {
+        "dev": [
+          "my-web-app-development"
+        ],
+        "prod": [
+          "my-web-app-production"
+        ]
+      }
+    }
   }
 }
